@@ -14,7 +14,7 @@ const {
   DB_NAME,
 } = process.env;
 
-const MONGO_URI = `mongodb://${DB_USER}:${DB_PASSWORD}@${DB_HOST}:${DB_PORT}/${DB_NAME}?authSource=admin`
+const MONGO_URI = `mongodb+srv://encmmaroc:encmtest@cluster0.bj9ky5j.mongodb.net/`
 // const MONGO_URI = "mongodb://host.docker.internal:27017/mydata"
 // Connect DB
 mongoose
